@@ -1,21 +1,21 @@
 class Secretguard < Formula
   desc "Sub-millisecond terminal secret and privacy guard for developers and AI agents"
   homepage "https://github.com/hemanathk636/secretguard"
-  version "0.1.7"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hemanathk636/secretguard/releases/download/v0.1.7/secretguard-aarch64-apple-darwin.tar.gz"
-      sha256 "efa7f07663bf3d7312fd5e24189ddf8e93b2635ceddfa6f75987c877bc6eff72"
+      url "https://github.com/hemanathk636/secretguard/releases/download/v0.2.0/secretguard-aarch64-apple-darwin.tar.gz"
+      sha256 "aa6812d1c65e07faffaec97538a8477cd8a49329ad309be43bda34b6e49b432d"
     else
-      url "https://github.com/hemanathk636/secretguard/releases/download/v0.1.7/secretguard-x86_64-apple-darwin.tar.gz"
-      sha256 "6237bca3710b98b88382daff24d8b8e916c2423b784745c5c3ef81db03686220"
+      url "https://github.com/hemanathk636/secretguard/releases/download/v0.2.0/secretguard-x86_64-apple-darwin.tar.gz"
+      sha256 "af4d7e42557a79da2595400eb285180f37ab4054f6a6762cfb0a44d0da9db08d"
     end
   end
 
   on_linux do
-    url "https://github.com/hemanathk636/secretguard/releases/download/v0.1.7/secretguard-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "e1043eb7905f63f4e5e3a7d5aaa0cb1f4edb0e17481ab507f82871a84e82c6b8"
+    url "https://github.com/hemanathk636/secretguard/releases/download/v0.2.0/secretguard-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "46513cc912249df7b65df8b03af86a5aace4f51653e925701e0edf55b25686c5"
   end
 
   def install
